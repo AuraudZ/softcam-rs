@@ -1,0 +1,12 @@
+[package]
+name = "softcam-rs"
+version = "0.1.0"
+edition = "2021"
+
+# link a libary called softcam.lib and access it's functions through a header file
+# [lib]
+# path = "C:\\Users\\aubte\\source\\repos\\softcam\\dist\\lib\\x64\\softcam.lib"
+
+
+[dependencies]
+bmp = "0.5.0"
